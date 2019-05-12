@@ -1,0 +1,19 @@
+Projeto para P2 (em dupla de dois, sem choro!)
+
+Projeto de Exemplo na Pasta do Professor (pasta Aula7)
+
+1- Login (MD5) e banco de dados
+
+2- Menu
+
+3- CRUD Cadastro Simples (banco de dados e orientado a objetos)
+    Exemplos: Cadastro de Tipo, Departamento, turmas etc.
+
+4- CRUD Complexo (banco de dados e orientado a objetos)
+    Exemplos: Cadastro de Clientes, Produtos etc. 
+
+    Obrigatório --> Deve possuir combo box
+
+Entrega -> 05/06/2019 - Quarta-feira - Apresentação para o Professor
+
+-----------------------------------------------------------------------

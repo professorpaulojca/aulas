@@ -1,0 +1,15 @@
+Exercício
+
+1) Requisito Funcional:
+	O Sistema deverá possuir as seguintes Formas de Pagamento:
+	a. à vista 				(10% de desconto);
+	b. cartão de crédito 	(2% de acréscimo);
+	c. cartão de débito 	(5% de desconto);
+	d. crediário 			(junto a uma instituição financiadora) (sem desconto ou acréscimo);
+	e. boleto 				(5% de desconto);
+	
+	Observações;
+	- Fazer a modelagem de forma que não seja utilizada nenhuma instrução condicional (IF);
+	- Implemente usando ENUM FACTORY;
+	
+	

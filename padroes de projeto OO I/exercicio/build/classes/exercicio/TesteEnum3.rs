@@ -1,0 +1,2 @@
+pkgenum.TesteEnum3
+Exercicio.TesteEnum3
