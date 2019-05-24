@@ -1,0 +1,30 @@
+html, body{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+#conteudo-ListaAgendamento{
+    width:700px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #fcfcfc;
+    margin-top: 0;
+    
+}
+
+#conteudo-ListaAgendamento h1{
+    color:#333;
+    font-size: 30px;
+}
+
+#conteudo-ListaAgendamento table{
+    width:100%;
+    
+}
+
+#conteudo-ListaAgendamento table tr:hover td{
+    background:#ccc;
+    
+}
