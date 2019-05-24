@@ -1,0 +1,53 @@
+<%-- 
+    Document   : listaCliente
+    Created on : 30/04/2018, 16:31:47
+    Author     : 11162500307
+--%>
+
+<%@page import="java.util.ArrayList"%>
+<%@page import="modelo.Cliente"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" conten1:="text/html; charset=UTF-8">
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+        <title>JSP Page</title>
+    </head>
+<body>
+    <hl>Lista de Clientes '</hl>
+    <%        //recuperar a lista
+        ArrayList<Cliente> listaCliente = (ArrayList<Cliente>) request.getAttribute("listaCliente");
+    %>
+    <table border="l">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Telefone</th>
+            <th>Prioridade</th>
+            <th>Ferramentas</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+    <%
+        for(Cliente c :	listaCliente ){
+    %>
+    <tr>
+        <td><%= c.getId() %></td>
+        <td><%= c.getNome()	%> </td>
+        <td><%= c.getTelefone() %> </td>
+        <td class="t<%= c.getTipo().getId() %>"> <%= c.getTipo().getDescricao() %> </td>
+        
+        <td><a href="ControleCliente?acao=excluir&id=<%= c.getId() %>"><img src="img/excluir.png" alt=""/></a><a href="ControleCliente?acao=alterar&id=<%= c.getId() %>"><img src="img/editar.png" alt=""/></a></td>
+            
+    </tr>
+     <%
+         }
+    %>
+    </tbody>
+        </table>
+    </body>
+</html>
+
